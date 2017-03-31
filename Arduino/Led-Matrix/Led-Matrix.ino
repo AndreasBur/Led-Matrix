@@ -1,4 +1,4 @@
-﻿/******************************************************************************************************************************************************
+/******************************************************************************************************************************************************
  *  COPYRIGHT
  *  ---------------------------------------------------------------------------------------------------------------------------------------------------
  *  \verbatim
@@ -94,14 +94,14 @@ void setup()
     Serial.begin(9600);
     Matrix.init();
     
-    Matrix.setModuleOrientation(MAXMATRIX_MODULE_ORIENTATION_90);
-    Matrix.setText("Andreas");
-    stringCopy(MaxMatrixText, "Andreas Burnickl", sizeof(MaxMatrixText));
+    Matrix.setModuleOrientation(MAXMATRIX_MODULE_ORIENTATION_270);
+    //Matrix.setText("Andreas");
+    stringCopy(MaxMatrixText, "Ich liebe dich Elisabeth dein Andreas", sizeof(MaxMatrixText));
     UartInputComplete = false;
     Timer1Overflow = false;
     
-    State = LEDMATRIX_STATE_READY;
-    //State = LEDMATRIX_STATE_STRING_SHIFT;
+    //State = LEDMATRIX_STATE_READY;
+    State = LEDMATRIX_STATE_STRING_SHIFT;
 }
 
 
@@ -185,7 +185,7 @@ void uartInputHandle()
                 Serial.println(F("speed range "TOSTRING(MAXMATRIX_SPEED_MIN_VALUE)" ... "TOSTRING(MAXMATRIX_SPEED_MAX_VALUE)));
             }
         }
-        else if(strcmp(command, "spaceBetweenChars") == 0) {
+        else if(strcmp(command, "space") == 0) {
             value = atoi(valueASCII);
             if(value >= MAXMATRIX_SPACE_BETWEEN_CHARS_MIN_VALUE && value <= MAXMATRIX_SPACE_BETWEEN_CHARS_MAX_VALUE) {
                     Matrix.setSpaceBetweenChars(value);
@@ -281,7 +281,7 @@ void printHelp()
 inline void stringCopy(char *Destination, const char *Source, int Length)
 {
     strncpy(Destination, Source, Length - 1);
-    Destination[Length-1] = STD_NULL_CHARACTER;
+    Destination[Length - 1] = STD_NULL_CHARACTER;
 }
 
 
@@ -302,3 +302,4 @@ void systTick()
 /******************************************************************************************************************************************************
  *  E N D   O F   F I L E
  *****************************************************************************************************************************************************/
+
