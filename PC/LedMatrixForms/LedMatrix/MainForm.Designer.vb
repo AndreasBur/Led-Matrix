@@ -68,18 +68,16 @@ Partial Class MainForm
         '
         Me.SerialPortComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.SerialPortComboBox.FormattingEnabled = True
-        Me.SerialPortComboBox.Location = New System.Drawing.Point(41, 43)
-        Me.SerialPortComboBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SerialPortComboBox.Location = New System.Drawing.Point(31, 35)
         Me.SerialPortComboBox.Name = "SerialPortComboBox"
-        Me.SerialPortComboBox.Size = New System.Drawing.Size(160, 24)
+        Me.SerialPortComboBox.Size = New System.Drawing.Size(121, 21)
         Me.SerialPortComboBox.TabIndex = 0
         '
         'OpenButton
         '
-        Me.OpenButton.Location = New System.Drawing.Point(41, 96)
-        Me.OpenButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.OpenButton.Location = New System.Drawing.Point(31, 78)
         Me.OpenButton.Name = "OpenButton"
-        Me.OpenButton.Size = New System.Drawing.Size(100, 28)
+        Me.OpenButton.Size = New System.Drawing.Size(75, 23)
         Me.OpenButton.TabIndex = 1
         Me.OpenButton.Text = "Öffnen"
         Me.OpenButton.UseVisualStyleBackColor = True
@@ -89,11 +87,9 @@ Partial Class MainForm
         Me.SerialPortGroupBox.Controls.Add(Me.SerialPortLed)
         Me.SerialPortGroupBox.Controls.Add(Me.OpenButton)
         Me.SerialPortGroupBox.Controls.Add(Me.SerialPortComboBox)
-        Me.SerialPortGroupBox.Location = New System.Drawing.Point(765, 71)
-        Me.SerialPortGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SerialPortGroupBox.Location = New System.Drawing.Point(574, 58)
         Me.SerialPortGroupBox.Name = "SerialPortGroupBox"
-        Me.SerialPortGroupBox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.SerialPortGroupBox.Size = New System.Drawing.Size(243, 156)
+        Me.SerialPortGroupBox.Size = New System.Drawing.Size(182, 127)
         Me.SerialPortGroupBox.TabIndex = 3
         Me.SerialPortGroupBox.TabStop = False
         Me.SerialPortGroupBox.Text = "Serieller Port"
@@ -101,10 +97,9 @@ Partial Class MainForm
         'SerialPortLed
         '
         Me.SerialPortLed.Image = Global.LedMatrix.My.Resources.Resources.led_green_off
-        Me.SerialPortLed.Location = New System.Drawing.Point(176, 99)
-        Me.SerialPortLed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SerialPortLed.Location = New System.Drawing.Point(132, 80)
         Me.SerialPortLed.Name = "SerialPortLed"
-        Me.SerialPortLed.Size = New System.Drawing.Size(25, 25)
+        Me.SerialPortLed.Size = New System.Drawing.Size(19, 20)
         Me.SerialPortLed.TabIndex = 4
         Me.SerialPortLed.TabStop = False
         '
@@ -112,10 +107,9 @@ Partial Class MainForm
         '
         Me.LedMatrixText.Enabled = False
         Me.LedMatrixText.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.LedMatrixText.Location = New System.Drawing.Point(67, 42)
-        Me.LedMatrixText.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LedMatrixText.Location = New System.Drawing.Point(50, 34)
         Me.LedMatrixText.Name = "LedMatrixText"
-        Me.LedMatrixText.Size = New System.Drawing.Size(512, 34)
+        Me.LedMatrixText.Size = New System.Drawing.Size(385, 29)
         Me.LedMatrixText.TabIndex = 4
         '
         'LedMatrixGroupBox
@@ -124,11 +118,9 @@ Partial Class MainForm
         Me.LedMatrixGroupBox.Controls.Add(Me.IntensityGroupBox)
         Me.LedMatrixGroupBox.Controls.Add(Me.SpeedGroupBox)
         Me.LedMatrixGroupBox.Controls.Add(Me.LedMatrixText)
-        Me.LedMatrixGroupBox.Location = New System.Drawing.Point(31, 32)
-        Me.LedMatrixGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LedMatrixGroupBox.Location = New System.Drawing.Point(23, 26)
         Me.LedMatrixGroupBox.Name = "LedMatrixGroupBox"
-        Me.LedMatrixGroupBox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.LedMatrixGroupBox.Size = New System.Drawing.Size(647, 361)
+        Me.LedMatrixGroupBox.Size = New System.Drawing.Size(485, 293)
         Me.LedMatrixGroupBox.TabIndex = 5
         Me.LedMatrixGroupBox.TabStop = False
         Me.LedMatrixGroupBox.Text = "Led Matrix Text Konfiguration"
@@ -136,10 +128,9 @@ Partial Class MainForm
         'SendButton
         '
         Me.SendButton.Enabled = False
-        Me.SendButton.Location = New System.Drawing.Point(483, 300)
-        Me.SendButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SendButton.Location = New System.Drawing.Point(362, 244)
         Me.SendButton.Name = "SendButton"
-        Me.SendButton.Size = New System.Drawing.Size(100, 28)
+        Me.SendButton.Size = New System.Drawing.Size(75, 23)
         Me.SendButton.TabIndex = 9
         Me.SendButton.Text = "Senden"
         Me.SendButton.UseVisualStyleBackColor = True
@@ -148,11 +139,9 @@ Partial Class MainForm
         '
         Me.IntensityGroupBox.Controls.Add(Me.IntensityValue)
         Me.IntensityGroupBox.Controls.Add(Me.Intensity)
-        Me.IntensityGroupBox.Location = New System.Drawing.Point(69, 122)
-        Me.IntensityGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.IntensityGroupBox.Location = New System.Drawing.Point(52, 99)
         Me.IntensityGroupBox.Name = "IntensityGroupBox"
-        Me.IntensityGroupBox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.IntensityGroupBox.Size = New System.Drawing.Size(148, 207)
+        Me.IntensityGroupBox.Size = New System.Drawing.Size(111, 168)
         Me.IntensityGroupBox.TabIndex = 7
         Me.IntensityGroupBox.TabStop = False
         Me.IntensityGroupBox.Text = "Intensität"
@@ -160,22 +149,20 @@ Partial Class MainForm
         'IntensityValue
         '
         Me.IntensityValue.Enabled = False
-        Me.IntensityValue.Location = New System.Drawing.Point(91, 106)
-        Me.IntensityValue.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.IntensityValue.Location = New System.Drawing.Point(68, 86)
         Me.IntensityValue.Name = "IntensityValue"
-        Me.IntensityValue.Size = New System.Drawing.Size(41, 22)
+        Me.IntensityValue.Size = New System.Drawing.Size(32, 20)
         Me.IntensityValue.TabIndex = 10
         '
         'Intensity
         '
         Me.Intensity.Enabled = False
-        Me.Intensity.Location = New System.Drawing.Point(27, 46)
-        Me.Intensity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Intensity.Location = New System.Drawing.Point(20, 37)
         Me.Intensity.Maximum = 16
         Me.Intensity.Minimum = 1
         Me.Intensity.Name = "Intensity"
         Me.Intensity.Orientation = System.Windows.Forms.Orientation.Vertical
-        Me.Intensity.Size = New System.Drawing.Size(56, 140)
+        Me.Intensity.Size = New System.Drawing.Size(45, 114)
         Me.Intensity.TabIndex = 5
         Me.Intensity.Value = 1
         '
@@ -183,11 +170,9 @@ Partial Class MainForm
         '
         Me.SpeedGroupBox.Controls.Add(Me.SpeedValue)
         Me.SpeedGroupBox.Controls.Add(Me.Speed)
-        Me.SpeedGroupBox.Location = New System.Drawing.Point(257, 122)
-        Me.SpeedGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SpeedGroupBox.Location = New System.Drawing.Point(193, 99)
         Me.SpeedGroupBox.Name = "SpeedGroupBox"
-        Me.SpeedGroupBox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.SpeedGroupBox.Size = New System.Drawing.Size(148, 207)
+        Me.SpeedGroupBox.Size = New System.Drawing.Size(111, 168)
         Me.SpeedGroupBox.TabIndex = 8
         Me.SpeedGroupBox.TabStop = False
         Me.SpeedGroupBox.Text = "Geschwindigkeit"
@@ -195,45 +180,40 @@ Partial Class MainForm
         'SpeedValue
         '
         Me.SpeedValue.Enabled = False
-        Me.SpeedValue.Location = New System.Drawing.Point(91, 106)
-        Me.SpeedValue.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SpeedValue.Location = New System.Drawing.Point(68, 86)
         Me.SpeedValue.Name = "SpeedValue"
-        Me.SpeedValue.Size = New System.Drawing.Size(41, 22)
+        Me.SpeedValue.Size = New System.Drawing.Size(32, 20)
         Me.SpeedValue.TabIndex = 11
         '
         'Speed
         '
         Me.Speed.Enabled = False
         Me.Speed.LargeChange = 2
-        Me.Speed.Location = New System.Drawing.Point(27, 46)
-        Me.Speed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Speed.Location = New System.Drawing.Point(20, 37)
         Me.Speed.Maximum = 100
         Me.Speed.Minimum = 1
         Me.Speed.Name = "Speed"
         Me.Speed.Orientation = System.Windows.Forms.Orientation.Vertical
-        Me.Speed.Size = New System.Drawing.Size(56, 140)
+        Me.Speed.Size = New System.Drawing.Size(45, 114)
         Me.Speed.TabIndex = 5
         Me.Speed.TickFrequency = 5
         Me.Speed.Value = 1
         '
         'LogText
         '
-        Me.LogText.Location = New System.Drawing.Point(8, 23)
-        Me.LogText.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LogText.Location = New System.Drawing.Point(6, 19)
         Me.LogText.Name = "LogText"
         Me.LogText.ReadOnly = True
-        Me.LogText.Size = New System.Drawing.Size(225, 214)
+        Me.LogText.Size = New System.Drawing.Size(170, 175)
         Me.LogText.TabIndex = 6
         Me.LogText.Text = ""
         '
         'LogGroupBox
         '
         Me.LogGroupBox.Controls.Add(Me.LogText)
-        Me.LogGroupBox.Location = New System.Drawing.Point(765, 239)
-        Me.LogGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LogGroupBox.Location = New System.Drawing.Point(574, 194)
         Me.LogGroupBox.Name = "LogGroupBox"
-        Me.LogGroupBox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.LogGroupBox.Size = New System.Drawing.Size(243, 246)
+        Me.LogGroupBox.Size = New System.Drawing.Size(182, 200)
         Me.LogGroupBox.TabIndex = 5
         Me.LogGroupBox.TabStop = False
         Me.LogGroupBox.Text = "Protokoll"
@@ -244,8 +224,7 @@ Partial Class MainForm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DateiToolStripMenuItem, Me.ÜberToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1037, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(778, 24)
         Me.MenuStrip1.TabIndex = 6
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -253,41 +232,39 @@ Partial Class MainForm
         '
         Me.DateiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BeendenToolStripMenuItem})
         Me.DateiToolStripMenuItem.Name = "DateiToolStripMenuItem"
-        Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(57, 24)
+        Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
         Me.DateiToolStripMenuItem.Text = "Datei"
         '
         'BeendenToolStripMenuItem
         '
         Me.BeendenToolStripMenuItem.Name = "BeendenToolStripMenuItem"
-        Me.BeendenToolStripMenuItem.Size = New System.Drawing.Size(142, 26)
+        Me.BeendenToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
         Me.BeendenToolStripMenuItem.Text = "Beenden"
         '
         'ÜberToolStripMenuItem
         '
         Me.ÜberToolStripMenuItem.Name = "ÜberToolStripMenuItem"
-        Me.ÜberToolStripMenuItem.Size = New System.Drawing.Size(53, 24)
+        Me.ÜberToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.ÜberToolStripMenuItem.Text = "Über"
         '
         'TabControl
         '
         Me.TabControl.Controls.Add(Me.TextTabPage)
         Me.TabControl.Controls.Add(Me.LedTabPage)
-        Me.TabControl.Location = New System.Drawing.Point(16, 44)
-        Me.TabControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabControl.Location = New System.Drawing.Point(12, 36)
         Me.TabControl.Name = "TabControl"
         Me.TabControl.SelectedIndex = 0
-        Me.TabControl.Size = New System.Drawing.Size(721, 441)
+        Me.TabControl.Size = New System.Drawing.Size(541, 358)
         Me.TabControl.TabIndex = 7
         '
         'TextTabPage
         '
         Me.TextTabPage.BackColor = System.Drawing.SystemColors.Control
         Me.TextTabPage.Controls.Add(Me.LedMatrixGroupBox)
-        Me.TextTabPage.Location = New System.Drawing.Point(4, 25)
-        Me.TextTabPage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextTabPage.Location = New System.Drawing.Point(4, 22)
         Me.TextTabPage.Name = "TextTabPage"
-        Me.TextTabPage.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.TextTabPage.Size = New System.Drawing.Size(713, 412)
+        Me.TextTabPage.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TextTabPage.Size = New System.Drawing.Size(533, 332)
         Me.TextTabPage.TabIndex = 0
         Me.TextTabPage.Text = "Text"
         '
@@ -295,37 +272,34 @@ Partial Class MainForm
         '
         Me.LedTabPage.BackColor = System.Drawing.SystemColors.Control
         Me.LedTabPage.Controls.Add(Me.LedStateMatrixGroupBox)
-        Me.LedTabPage.Location = New System.Drawing.Point(4, 25)
-        Me.LedTabPage.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LedTabPage.Location = New System.Drawing.Point(4, 22)
         Me.LedTabPage.Name = "LedTabPage"
-        Me.LedTabPage.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.LedTabPage.Size = New System.Drawing.Size(713, 412)
+        Me.LedTabPage.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.LedTabPage.Size = New System.Drawing.Size(533, 332)
         Me.LedTabPage.TabIndex = 1
         Me.LedTabPage.Text = "LED"
         '
         'LedStateMatrixGroupBox
         '
-        Me.LedStateMatrixGroupBox.Location = New System.Drawing.Point(31, 32)
-        Me.LedStateMatrixGroupBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LedStateMatrixGroupBox.Location = New System.Drawing.Point(23, 26)
         Me.LedStateMatrixGroupBox.Name = "LedStateMatrixGroupBox"
         Me.LedStateMatrixGroupBox.Padding = New System.Windows.Forms.Padding(0)
-        Me.LedStateMatrixGroupBox.Size = New System.Drawing.Size(647, 361)
+        Me.LedStateMatrixGroupBox.Size = New System.Drawing.Size(485, 293)
         Me.LedStateMatrixGroupBox.TabIndex = 0
         Me.LedStateMatrixGroupBox.TabStop = False
         Me.LedStateMatrixGroupBox.Text = "Led Matrix Zustände"
         '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1037, 501)
+        Me.ClientSize = New System.Drawing.Size(778, 407)
         Me.Controls.Add(Me.LogGroupBox)
         Me.Controls.Add(Me.SerialPortGroupBox)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.TabControl)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MainForm"
         Me.Text = "LedMatrix Steuerung"
         Me.SerialPortGroupBox.ResumeLayout(False)

@@ -136,6 +136,10 @@
         MsgBox("SetDot=" + Led.Tag.Column.ToString + "," + Led.Tag.Row.ToString + "," + Led.Tag.LedOnState.ToString)
 
     End Sub
+
+    Private Sub SerialPortLed_Click(sender As Object, e As EventArgs) Handles SerialPortLed.Click
+
+    End Sub
 #End Region
 
 End Class

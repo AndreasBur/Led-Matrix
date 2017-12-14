@@ -17,3 +17,14 @@ C:\Users\Andreas\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\bin\Rel
 C:\Users\Andreas\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.exe
 C:\Users\Andreas\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.xml
 C:\Users\Andreas\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.pdb
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\bin\Release\LedMatrix.exe.config
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\bin\Release\LedMatrix.exe
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\bin\Release\LedMatrix.pdb
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\bin\Release\LedMatrix.xml
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.vbprojResolveAssemblyReference.cache
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.MainForm.resources
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.Resources.resources
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.vbproj.GenerateResource.Cache
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.exe
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.xml
+C:\Users\virskl\Documents\GitHub\Led-Matrix\PC\LedMatrixForms\LedMatrix\obj\Release\LedMatrix.pdb
